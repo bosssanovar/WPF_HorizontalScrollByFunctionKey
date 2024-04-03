@@ -33,7 +33,9 @@
                   HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"
                   IsReadOnly="True"
                   MouseLeftButtonDown="Grid_MouseLeftButtonDown" CurrentCellChanged="Grid_CurrentCellChanged"
-                  PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Grid_PreviewMouseLeftButtonUp">
+                  PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown"
+                  PreviewMouseLeftButtonUp="Grid_PreviewMouseLeftButtonUp"
+                  PreviewMouseWheel="Grid_PreviewMouseWheel">
             <DataGrid.InputBindings>
                 <KeyBinding Gesture="Ctrl+A" Command="ApplicationCommands.NotACommand"/>
             </DataGrid.InputBindings>
